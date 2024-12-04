@@ -9,6 +9,7 @@ public class Run {
 		System.out.println("실행할 기능을 선택하세요.");
 		System.out.println("1. 인사하기");
 		System.out.println("2. 두 정수의 합 구하기");
+		System.out.println("3. 1~50까지 짝수 합하기");
 		System.out.print("선택 : ");
 		
 		Scanner sc = new Scanner(System.in);
@@ -18,12 +19,16 @@ public class Run {
 		case 1 : practice.practice01();
 			break;
 		case 2 : practice.practice02();
+			break;
+		case 3 : practice.practice03();
 		}
 		sc.close();
 		// 1번 기능 호출
 		//practice.practice01();
 		// 2번 기능 호출
 		//practice.practice02();
+		// 3번 기능 호출
+		//practice.practice03();
 	}
 
 }
