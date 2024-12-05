@@ -14,10 +14,9 @@ public class Run {
 				new Supplement("루테인",2,20000),
 				new Supplement("비타민D",1,12000)};
 		//출력
-		for(int i = 0; i < ac1.length; i++) {
-			System.out.println(ac[i].getName());
-			System.out.println(ac[i].getDosage());
-			System.out.println(ac[i].getPrice());
+		for(Supplement ar : ac1) {
+			ar.information();
+
 		}
 	}
 }

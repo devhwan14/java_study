@@ -14,12 +14,8 @@ public class Run {
 		p.SetGender('M');
 		p.SetPhone("010-1111-1111");
 		p.SetEmail("ksc@gmail.com");
-		
-		
-		
-
-		
-		
+		System.out.println(p.infomation());
+				
 				
 	}
 
