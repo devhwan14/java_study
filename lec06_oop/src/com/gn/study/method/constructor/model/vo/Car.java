@@ -20,5 +20,5 @@ public class Car {
 		this.color = color;
 		this.year = year;
 	}
-
+	
 }
