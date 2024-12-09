@@ -1,7 +1,7 @@
-package com.gn.practic03.controller;
+package com.gn.practice03.controller;
 
-import com.gn.practic03.model.vo.Circle;
-import com.gn.practic03.model.vo.Rectangle;
+import com.gn.practice03.model.vo.Circle;
+import com.gn.practice03.model.vo.Rectangle;
 
 public class Run {
 	public static void main(String[] args) {

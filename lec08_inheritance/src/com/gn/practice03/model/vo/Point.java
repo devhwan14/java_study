@@ -1,4 +1,4 @@
-package com.gn.practic03.model.vo;
+package com.gn.practice03.model.vo;
 
 public class Point {
 	private int x;
