@@ -24,8 +24,8 @@ public class Circle extends Point {
 //		Circle c = new Circle();
 //		c.draw();
 		super.draw();
-		System.out.println("면적 : "+(PI*radius*radius));
-		System.out.println("둘레 : "+(PI*radius*2));
+		System.out.println("면적 : %1.f\n"+(PI*radius*radius));
+		System.out.println("둘레 : %1.f\n"+(PI*radius*2));
 		 
 	}
 
