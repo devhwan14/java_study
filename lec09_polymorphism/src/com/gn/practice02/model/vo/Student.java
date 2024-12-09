@@ -1,6 +1,7 @@
 package com.gn.practice02.model.vo;
 
 public class Student extends SchoolMember {
+	@Override
 	public void introduce() {
 		System.out.println("안녕하세요, 학생입니다.");
 	}

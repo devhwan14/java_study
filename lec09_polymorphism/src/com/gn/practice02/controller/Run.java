@@ -7,20 +7,23 @@ import com.gn.practice02.model.vo.Teacher;
 
 public class Run {
 	public static void main(String[] args) {
-		SchoolMember[] arr = new SchoolMember[4];
+		SchoolMember[] arr = new SchoolMember[3];
+		arr[0] = new Student();
+		arr[1] = new Teacher();
+		arr[2] = new Staff();
 		
-		SchoolMember sm = new SchoolMember();
-		arr[0] = sm;
-		
-		Student s = new Student();
-		arr[1] = s;
-		
-		Teacher t = new Teacher();
-		arr[2] = t;
-		
-		Staff st = new Staff();
-		arr[3] = st;
-		
+//		SchoolMember sm = new SchoolMember();
+//		arr[0] = sm;
+//		
+//		Student s = new Student();
+//		arr[1] = s;
+//		
+//		Teacher t = new Teacher();
+//		arr[2] = t;
+//		
+//		Staff st = new Staff();
+//		arr[3] = st;
+//		
 		for(SchoolMember a : arr) {
 			a.introduce();
 			if(a instanceof Student) {

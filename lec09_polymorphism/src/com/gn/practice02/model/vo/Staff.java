@@ -1,7 +1,8 @@
 package com.gn.practice02.model.vo;
 
 public class Staff extends SchoolMember {
-	public void intorduce() {
+	@Override
+	public void introduce() {
 		System.out.println("안녕하세요, 직원입니다.");
 	}
 	
