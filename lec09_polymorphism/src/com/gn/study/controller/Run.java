@@ -2,7 +2,10 @@ package com.gn.study.controller;
 
 import com.gn.study.model.vo.Beverage;
 import com.gn.study.model.vo.Coffee;
+import com.gn.study.model.vo.Earth;
+import com.gn.study.model.vo.Mars;
 import com.gn.study.model.vo.OrangeJuice;
+import com.gn.study.model.vo.Planet;
 
 public class Run {
 	public static void main(String[] args) {
@@ -55,9 +58,19 @@ public class Run {
 		}
 		
 		// 3. 클래스 다운캐스팅
+		// 4. 정적 바인딩
+		System.out.println("==============================="); // 출력되었을때 끊어주는 용도
 		
+		Planet myPlanet = new Planet();
+		myPlanet.description();
+		myPlanet.description(46);
 		
+		// 5. 동적 바인딩
+		Planet p1 = new Earth();
+		Planet p2 = new Mars();
 		
+		p1.material();
+		p2.material();
 	}
 
 }
